@@ -2,8 +2,10 @@
   "name": "NucleusApplicationsWebAppWebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://miragenepal321.github.io/final-project/",
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^5.1.2",
@@ -14,6 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "CI=true react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+
   }
 }
