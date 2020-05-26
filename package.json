@@ -1,0 +1,19 @@
+{
+  "name": "NucleusApplicationsWebAppWebsite",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.4",
+    "tableau-api": "^2.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

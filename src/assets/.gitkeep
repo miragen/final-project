@@ -1,0 +1,1 @@
+% skip unless @framework_type == "angular"

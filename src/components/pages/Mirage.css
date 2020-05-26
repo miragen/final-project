@@ -1,0 +1,14 @@
+.aa {
+    text-align: center;
+    border: 3px solid #477998;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 5px;
+    width: 50%;
+}
+
+.bb {
+    background-color: #04471C;
+    color: white;
+    padding: 5px;
+}
